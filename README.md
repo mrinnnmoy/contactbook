@@ -2,21 +2,25 @@
 
 An address book where users can stores contacts of different people.
 
-- Users can add names and wallet address of different people.
-- Users can also remove names and wallet address of different people.
-- Users can get names and wallet address of different people.
+* Users can add names and wallet address of different people.
+* Users can also remove names and wallet address of different people.
+* Users can get names and wallet address of different people.
 
 It helps users to store contacts of different people like a telephone directory.
 
+## Demo Image
+
+![Demo-Image](./demo-img.png)
+
 ## Contributions to this repo are WELCOME ⚡👋
 
-- :art: Any improvements to the design and UI are welcome.
-- :hammer: try to break the website by testing it to find any bugs. If you find any, check if there is an issue already open for it, if there is none, then report it.
+* :art: Any improvements to the design and UI are welcome.
+* :hammer: try to break the website by testing it to find any bugs. If you find any, check if there is an issue already open for it, if there is none, then report it.
 
 ## Tools, Languages and Frameworks used
 
-- React JS
-- Ether JS
+* React JS
+* Ether JS
 
 ## Steps to be followed in order to make valid contributions to this repo 🍀
 
@@ -26,10 +30,10 @@ It helps users to store contacts of different people like a telephone directory.
 
         git clone "https://github.com/<your-github-username>/contactbook"
 
-- Download and install Node JS v16.16.0
-- Download and install Git.
-- Run "npm install" to download packages.
-- Run "npm run dev" to start a local server.
+* Download and install Node JS v16.16.0
+* Download and install Git.
+* Go to the terminal of your code editor and run "npm install" to download packages.
+* Run "npm run dev" to start a local server.
 
 **3.** Make necessary changes and commit those changes. <br />
 Remember never push anything to the Main branch. <br />

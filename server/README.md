@@ -4,19 +4,19 @@ This folder contains the Hardhat project for the ContactBook web-app.
 
 ## Folder structure
 
-- contracts: Strores the smart contracts.
-- scripts: Stores the file to deploy the smart contract.
-- tests: Stores the file for testing the smart contract.
+* contracts: Strores the smart contracts.
+* scripts: Stores the file to deploy the smart contract.
+* tests: Stores the file for testing the smart contract.
 
 ## Contributions to this repo are WELCOME ⚡️🙌🏻
 
-- :hammer: try to break the smart contract by testing it to find any bugs. If you find any, check if there is an issue already open for it, if there is none, then report it.
+* :hammer: try to break the smart contract by testing it to find any bugs. If you find any, check if there is an issue already open for it, if there is none, then report it.
 
 ## Tools, Languages & Frameworks used
 
-- Solidity
-- Hardhat
-- JavaScript
+* Solidity
+* Hardhat
+* JavaScript
 
 ## Steps to be followed in order to make valid contributions ☘️
 
@@ -26,11 +26,11 @@ This folder contains the Hardhat project for the ContactBook web-app.
 
     git clone "https://github.com/<your-github-username>/contactbook"
 
--   Download and install Node Js v16.16.0
--   Download and install Git.
--   Run "npm install" to download packages.
--   Create a .env file in the base directory of the server folder.
--   Paste your Metamask Private key & Alchemy URL Key to deploy contract.
+*   Download and install Node Js v16.16.0
+*   Download and install Git.
+*   Run "npm install" to download packages.
+*   Create a .env file in the base directory of the server folder.
+*   Paste your Metamask Private key & Alchemy URL Key to deploy contract.
 
 **3.** Make necessary changes and commit those changes.<br/>
 Remember never push anything to the Main branch.<br/>

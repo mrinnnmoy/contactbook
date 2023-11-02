@@ -1,6 +1,8 @@
 // Import necessary libraries and dependencies.
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { ethers } from "ethers";
+import { GiCancel } from "react-icons/gi";
+import "./App.css";
 
 // Import the getWeb3 function.
 import { getWeb3 } from "./web3";
@@ -85,28 +87,32 @@ const App = () => {
   return (
     <div className="App">
       <h1>Contact Book</h1>
-      <div>
+      <div className="input-field">
         <input
           type="text"
-          placeholder="Name"
+          placeholder="Enter Name"
           value={name}
           onChange={(e) => setName(e.target.value)}
         />
         <input
           type="text"
-          placeholder="Wallet Address"
+          placeholder="Enter Wallet Address"
           value={walletAddress}
           onChange={(e) => setWalletAddress(e.target.value)}
         />
         <button onClick={addContact}>Add Contact</button>
       </div>
-      <div>
-        <h2>Contacts</h2>
+      <h2>Contacts</h2>
+      <div className="contacts">
         <ul>
           {contacts.map((contact, index) => (
             <li key={index}>
-              {contact.name} - {contact.wallet}
-              <button onClick={() => removeContact(index)}>Remove</button>
+              <div className="contact-details">
+                <span className="name">{contact.name}</span>
+                <span className="wallet">Wallet Address:</span>
+                <span className="address">{contact.wallet}</span>
+              </div>
+              <button onClick={() => removeContact(index)}><GiCancel /></button>
             </li>
           ))}
         </ul>

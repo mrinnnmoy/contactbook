@@ -4,9 +4,9 @@ This folder contains the Hardhat project for the ContactBook web-app.
 
 ## Folder structure
 
-- :contracts: Strores the smart contracts.
-- :scripts: Stores the file to deploy the smart contract.
-- :tests: Stores the file for testing the smart contract.
+- contracts: Strores the smart contracts.
+- scripts: Stores the file to deploy the smart contract.
+- tests: Stores the file for testing the smart contract.
 
 ## Contributions to this repo are WELCOME ⚡️🙌🏻
 

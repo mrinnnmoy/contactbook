@@ -11,6 +11,12 @@ async function setupWeb3() {
     // If the browser has the Ethereum object (MetaMask is available):
     web3 = new ethers.providers.Web3Provider(window.ethereum); // Initialize the Web3 provider using MetaMask.
 
+    // Check if the connected network is Polygon Mumbai (chain ID: 80001)
+    const networkId = (await web3.getNetwork()).chainId;
+    if (networkId != 80001) {
+      window.alert("Please switch to Polygon Mumbai Testnet");
+    }
+
     // Request user account access from MetaMask.
     // This will prompt the user to connect their wallet if it's not already connected.
     await window.ethereum.request({ method: "eth_requestAccounts" });
